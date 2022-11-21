@@ -14,10 +14,10 @@ public class Serie {
     }
 
     public Serie(String titulo, int numTemporadas, String genero, String creador) {
-        this.titulo = "Fast";
+        //this.titulo = titulo;
         this.numTemporadas = numTemporadas;
         this.genero = genero;
-        this.creador = creador;
+        //this.creador = creador;
     }
 
     @Override
