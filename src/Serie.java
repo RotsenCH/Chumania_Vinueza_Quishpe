@@ -4,15 +4,24 @@ public class Serie {
     boolean entregado = false;
     String genero;
     String creador;
-    public void Serie(){
-        titulo = "Elite";
-        creador = "Clase de POO";
-    }
+
     //Constructor por defecto
-    public Serie(int numTemporadas) {
-        this.numTemporadas = numTemporadas;
+    public void Serie(){
+        titulo = "";
+        numTemporadas = 0;
+        creador = "";
+        entregado = false;
+        genero = "";
+        creador = "";
     }
 
+    //Solo titulo y creador
+    public Serie(String titulo, String creador) {
+        this.titulo = titulo;
+        this.creador = creador;
+    }
+
+    //Todo menos entregado
     public Serie(String titulo, int numTemporadas, String genero, String creador) {
         this.titulo = "Fast";
         this.numTemporadas = numTemporadas;
