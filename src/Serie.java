@@ -20,6 +20,17 @@ public class Serie {
         this.creador = creador;
     }
 
+    @Override
+    public String toString() {
+        return "Serie{" +
+                "titulo='" + titulo + '\'' +
+                ", numTemporadas=" + numTemporadas +
+                ", entregado=" + entregado +
+                ", genero='" + genero + '\'' +
+                ", creador='" + creador + '\'' +
+                '}';
+    }
+
     public String getTitulo() {
         return titulo;
     }
