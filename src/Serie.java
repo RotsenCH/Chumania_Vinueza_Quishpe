@@ -4,7 +4,8 @@ public class Serie {
     boolean entregado = false;
     String genero;
     String creador;
-    public void Serie(){
+
+    public Serie(){
         titulo = "Elite";
         creador = "Clase de POO";
     }
